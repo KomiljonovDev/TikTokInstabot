@@ -3,7 +3,7 @@
     $db = new dbmysqli;
     $db->dbConnect();
     date_default_timezone_set('Asia/Tashkent');
-    define('API_KEY', "5775519605:AAF5frjCwOUNZwMkcyE5CEOwrX3rXMYaELI");
+    define('API_KEY', "");
     require './helpers/functions.php';
     $update = json_decode(file_get_contents('php://input'));
     if (!is_null($update)) {
